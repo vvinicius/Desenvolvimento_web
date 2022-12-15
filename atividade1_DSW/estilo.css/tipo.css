@@ -1,0 +1,116 @@
+
+
+.menu_superior {
+    background-color: #c48818;
+    width: auto;
+    height: 45px;
+}
+
+.cor-menu {
+    background-color: #f7a52b;
+    width: auto;
+    height:120px;
+    
+}
+
+.menu_superior img{  
+    width: 34px;
+    margin-right: 15px;
+
+}
+
+.posicaoleft{
+    display: inline;
+    margin-left: 4%;
+}
+
+.posicao_icone{
+    display: inline;
+    float: right;
+}
+
+.cor-menu img{
+    padding: 2px;
+    padding-top: 10px;
+    margin-left: 1%;
+    
+}
+
+.barra_pesquisa{
+    position: absolute;
+    display: flex;
+    top: 20%;
+    left: 50%;
+    padding: 8px;
+    width: 45%;
+    border-radius: 60px;
+    transform: translate(-50%,-50%);
+    justify-content: space-between;
+    align-items: center;
+    background-color : rgb(242, 241, 247);
+     
+}
+
+
+.botao_pesquisa{
+    border:none;
+    background: transparent;
+    padding: 0px;
+    outline: none;
+    inline-size: 100%;
+    line-height: 40px;
+    color: rgb(15, 15, 15);
+
+}
+
+.img_lupa{
+    border-radius: 100%;
+    background:transparent;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    line-height: 15px;
+}
+
+#menu_principal{
+    list-style: none;
+    background: rgb(17, 17, 17);
+    padding: 0;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+
+.home img{
+    margin-inline: 40px;
+    margin-right: 2ch;
+    margin-top: 2px;
+
+}
+
+#menu_principal ul{
+    margin-right: 1%;
+    display: inline;
+    padding: 1px;
+    justify-content: center;   
+}
+
+
+.barra_botao_menu ul a{ 
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(252, 247, 250) ;
+    transition: background.4s;
+    font-size: 20px;
+}
+
+.barra_botao_menu ul a:hover{
+    background-color:  rgba(218, 7, 7, 0.918);  
+}
+
+
+
+
+
